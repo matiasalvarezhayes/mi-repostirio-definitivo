@@ -1,0 +1,10 @@
+<h1>Create family member</h1>
+
+<form action="createFamilyMember" method="post">
+    {% csrf_token %}
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Juan"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Gonzales"><br><br>
+    <input type="submit" value="CREAR">
+  </form>
